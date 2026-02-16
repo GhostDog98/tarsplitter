@@ -68,10 +68,21 @@ Worse, `split` won't keep all the files intact. Files will be split on the line,
 
 It can be very slow to archive millions of small files. The `tarsplitter -m archive` mode will use as many cores as you want to create a tar archive, rather than the single threaded regular `tar` command.
 
+## Building from source
+Clone the repo:
+`git clone https://github.com/AQUAOSOTech/tarsplitter`
+CD into it: 
+`cd tarsplitter`
+Initialize the project:
+`go mod init tarsplitter`
+And build:
+`make`
+
 ## Contributors
 
 - [AQUAOSO Technologies, PBC](https://aquaoso.com)
 - [Jeff Parrish](https://github.com/ruffrey)
+- [Ghostoverflow256](https://github.com/GhostDog98)
 
 ## MIT License
 
